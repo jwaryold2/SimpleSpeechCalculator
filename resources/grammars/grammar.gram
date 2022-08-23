@@ -24,3 +24,4 @@ public <names> = ( logan | malcolm | andrea | watson | <othernames>);
 public <namesyntax> = (dory| evan | jon | sam | caleb);
 public <syntax2> = <names>{1} (and | or){1} <names>{1}; 
 public <syntax> = <number>{1} (plus | minus | multiply | division){1} <number>{1}; 
+public <recursiveadj> = <adjectives> {1} <recursiveadj>{1};
